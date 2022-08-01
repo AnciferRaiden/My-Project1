@@ -10,12 +10,8 @@ html, body {
     flex-direction: column;
 }
 .header {
-    border: 5px solid rgb(49, 60, 65);
     padding: 100px;
-    width: 1280px;
-    height: 867px;
-    background-color: rgb(49, 60, 65);
-    background-color: rgb(55, 76, 80);
+    padding-bottom: 487px;
     background-color: #41474a;
     display: flex;
 }
@@ -80,18 +76,14 @@ html, body {
     height: 17px;
 }
 .main {
-    width: 1280px;
-    height: 947px;
-    border: 5px solid white;
     padding: 100px;
+    padding-bottom: 1736px;
     background-color: white;
     flex: 1 1 auto;
 }
 .footer {
-    border: 5px solid rgb(42, 41, 40);
     padding: 100px;
-    width: 1280px;
-    height: 243px;
+    padding-top: 243px;
     background-color: rgb(42, 41, 40);
 }
 .a1 {
