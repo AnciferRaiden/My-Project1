@@ -1,0 +1,233 @@
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    border: 5px solid rgb(49, 60, 65);
+    padding: 100px;
+    width: 1280px;
+    height: 867px;
+    background-color: rgb(49, 60, 65);
+    background-color: rgb(55, 76, 80);
+    background-color: #41474a;
+    display: flex;
+}
+.zero {
+    font-size: 22.63px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 629px;
+    top: 52.752px;
+    width: 500px;
+    height: 17px;
+}
+.st1 {
+    font-size: 22.63px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 629px;
+    top: 52.752px;
+    width: 500px;
+    height: 17px;
+}
+.st2 {
+    font-size: 22.63px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 742px;
+    top: 52.752px;
+    width: 500px;
+    height: 17px;
+}
+.st3 {
+    font-size: 22.63px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 909px;
+    top: 52.752px;
+    width: 500px;
+    height: 17px;
+}
+.st4 {
+    font-size: 22.63px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 974px;
+    top: 52.752px;
+    width: 500px;
+    height: 17px;
+}
+.main {
+    width: 1280px;
+    height: 947px;
+    border: 5px solid white;
+    padding: 100px;
+    background-color: white;
+    flex: 1 1 auto;
+}
+.footer {
+    border: 5px solid rgb(42, 41, 40);
+    padding: 100px;
+    width: 1280px;
+    height: 243px;
+    background-color: rgb(42, 41, 40);
+}
+.a1 {
+    font-size: 118.51px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.678);
+    line-height: 0.278;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 229px;
+    top: 43px;
+}
+.sec0 {
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 650px;
+    top: 244.842px;
+    width: 357px;
+    height: 108px;
+}
+.a1 {
+    font-size: 64.63px;
+}
+.a2 {
+    font-size: 44.63;
+}
+.c1 {
+    font-size: 22px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 174.122px;
+    top: 2250px;
+}
+.c2 {
+    font-size: 22px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 363.122px;
+    top: 2250px;
+}
+.c3 {
+    font-size: 22px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 554px;
+    top: 2250px;
+}
+.art1 {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.692;
+    text-align: left;
+    position: absolute;
+    left: 177.089px;
+    top: 2308.346px;
+}
+ .art2 {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.692;
+    text-align: left;
+    position: absolute;
+    left: 368.089px;
+    top: 2308.346px;
+}
+  .art3 {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.692;
+    text-align: left;
+    position: absolute;
+    left: 557px;
+    top: 2308.346px;
+}
+  .art4 {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.659);
+    font-weight: bold;
+    line-height: 1.692;
+    text-align: left;
+    position: absolute;
+    left: 557px;
+    top: 2401.349px;
+}
+.Leo {
+    height: 270.13px;
+    width: 140.19;
+    font-size: 82.63px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.22);
+    line-height: 0.278;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 957.589px;
+    top: 2308.514px;
+} 
+.end {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.692;
+    text-align: left;
+    position: absolute;
+    left: 914px;
+    top: 2396.002px;
+}
+.tryd {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    background-color: rgb(41, 111, 78);
+    font-size: 22.63px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 676px;
+    top: 399.58px;
+    width: 99px;
+    height: 22px;     
+}
