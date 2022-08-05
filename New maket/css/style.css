@@ -90,29 +90,24 @@ body {
     font-size: 22.63px;
 }
     ------/*2 часть*/-----
-.container2 {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
     /*intro_part2*/
 .intro_part2 {
     width: 100%;
+    max-width: 1280px;
     height: 1436px;
     background: url(../images/body.png) center no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
     /*container2*/
 .container2 {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    text-align: center;
+width: 100%;
+max-width: 1280px;
+height: 1154px;
+margin: 0 auto;
 }
     /*Pictures*/
 .picture {
-    display: flex;
-    justify-content: center;
     padding-top: 94px;
 }
 .pt1 {
@@ -121,39 +116,227 @@ body {
     height: 155px;
 }
 .pt2 {
-    padding-left: 181px;
+    padding-left: 127px;
     margin: 0;
     height: 155px;
 }
 .pt3 {
-    padding-left: 181px;
+    padding-left: 132px;
     margin: 0;
     height: 155px;
 }
 .pt4 {
-    padding-left: 181px;
+    padding-left: 126px;
     margin: 0;
     height: 155px;
 }
-
-    /*nav*/
-.nav2 {
-    position: absolute;
-    padding-top: 270px;
-    padding-left: 180px;
+.text {
+    padding-left: 50px;
+    text-align: center;
 }
 .nav2_link {
     padding-top: 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    vertical-align: text-top;
     margin: 0 63.5px;
     color: #5c5b5b;
 }
 h2 {
     font-size: 26.63px;
 }
-br {
+.Websites {
+    padding-top: 5px;
     font-size: 22.63px;
+}
+    /*picture_ipad*/
+.picture_ipad {
+    padding-left: 315px;
+    padding-top: 111px;
+}
+    /*Описание основной части*/
+.st_t {
+    font-size: 38.63px;
+    padding-left: 172px;
+}
+.tb {
+    font-size: 14px;
+    padding-top: 40px;
+    padding-left: 187px;
+    color: #818181;
+}
+.stroka {
+    padding-top: 14px;
+}
+.ch_str {
+    padding-top: 38px;
+}
+    /*container3*/
+.container3 {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 583px;
+}
+.wind_br {
+    position: absolute;
+    padding-left: 131px;
+    padding-top: 30px;
+}
+.gall {
+    position: absolute;
+    padding-top: 34px;
+    padding-left: 636px;
+}
+.gal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 636px;
+}
+.zagolovok {
+    padding-top: 59px;
+    padding-left: 636px;
+    font-size: 32.63px;
+    color: #4f4f4f;
+}
+.n_ss {
+    line-height: 7px;
+    color: #4f4f4f;
+    padding-left: 669px;
+    font-size: 16px;
+    padding-top: 39px;
+}
+.n_s {
+    line-height: 2px;
+    color: #4f4f4f;
+    padding-left: 669px;
+    font-size: 16px;
+    padding-top: 29px;
+}
+    /*hr*/
+.hr {
+    padding-top: 75px;
+}
+    /*end_part_two*/
+.end_part_two {
+    display: flex;
+    padding-top: 44px;
+    padding-left: 131px;
+}
+
+.login {
+    color: #ffffff;
+    font-size: 28px;
+    padding-top: 16px;
+}
+.box_one {
+    padding-top: 26px;
+    font-size: 16px;
+}
+.box {
+    margin-left: 15px;
+    display: block;
+    width: 469px;
+    height: 110px;
+    background-color: #e67624;
+    border-radius: 5px;
+    padding-left: 28px;
+    padding-right: 16px;
+    
+}
+.box_two{
+    display: block;
+    margin-left: 66px;
+    padding-left: 28px;
+    padding-right: 16px;
+    float: left;
+    background-color: #01d4f3;
+    border-radius: 5px;
+}
+    /* Содержимое первого блока*/
+.un {
+    margin-right: 14px;
+    width: 155px;
+    height: 26px;
+}
+.pw {
+    margin-right: 12px;
+    width: 151px;
+    height: 26px;
+}
+.lg {
+    padding: 0px;
+    color: #ffffff;
+    width: 84px;
+    height: 30px;
+    border: #444444;
+    background-color: #444444;
+}
+    /* Содержимое второго блока*/
+.email {
+    width: 264px;
+    height: 26px;
+}
+.sub {
+    margin-left: 50px;
+    width: 111px;
+    height: 30px;
+    background-color: #029bb1;
+    border: #029bb1;
+    color: white;
+}
+    /*footer*/
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    height: 243px;
+    background: url(../images/footer.png) center no-repeat;
+}
+    /* sec_one*/
+.sec_one {
+    font-size: 22px;
+    color: white;
+}
+.s_one {  
+    position: absolute;  
+    padding-top: 35px;
+    padding-left: 175px;
+}
+.s_two {
+    position: absolute;  
+    padding-top: 35px;
+    padding-left: 364px;
+}
+.s_three {
+    position: absolute;  
+    padding-top: 35px;
+    padding-left: 555px;
+}
+    /*art_one*/
+.art_one {
+    padding-top: 69px;
+    padding-left: 177px;
+}
+.art_two {
+    padding-top: 69px;
+    padding-left: 368px;
+}
+.art_three {
+    padding-top: 69px;
+    padding-left: 557px;
+}
+.art_for {
+    padding-left: 557px;
+}
+.art_one, .art_two, .art_three, .art_for {
+    font-size: 13px;
+}
+.art_one, .art_two, .art_three, .art_for {
+    color: #a4a5a4;
+}
+.a_one {
+    padding-top: 12px;
 }
